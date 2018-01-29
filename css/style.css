@@ -1,0 +1,196 @@
+
+body {
+	font-family: arial, sans-serif;
+	font-size: 13.3px;	
+	background-color: #f9f9f9;	
+}
+
+a { text-decoration: none;
+ }
+.wrapper {	
+	background-color: #fff;
+	margin: 0 auto;	
+}
+header {
+	position: relative;
+	width: 100%;		
+	margin: auto;	
+}
+
+#navigation  {	
+	display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+background: -webkit-linear-gradient(90deg, #444343 0%, #5e5e5e 100%);
+background: -moz-linear-gradient(90deg, #444343 0%, #5e5e5e 100%);
+background: -o-linear-gradient(90deg, #444343 0%, #5e5e5e 100%);
+background: -ms-linear-gradient(90deg, #444343 0%, #5e5e5e 100%);
+background: linear-gradient(0deg, #444343 0%, #5e5e5e 100%);
+height: 80px;
+}
+
+.logo {
+	text-decoration: none;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	padding: 20px;	
+	color:  rgba(255, 255, 255, 1);
+	font-size: 35px;
+	font-weight: 400;
+	line-height: 25px;
+}
+
+.navmenu {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-end;
+	font-family: OpenSans;
+	color:  #ffffff;
+	font-size: 14.67px;
+	font-weight: 400;
+	line-height: 29.333px;
+	text-align: justify;
+	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+	}
+.navmenu > li:hover {
+	color:  #eee;	
+}
+.navmenu > li {
+	display: block;
+	padding: 0 10px;
+	font-family: OpenSans;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 29.333px;
+	text-align: justify;
+	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+form {
+	display: flex;
+	width: 25%;
+	height: 50px;
+	padding-right: 10px;
+}
+label {
+	color: white;
+}
+input[type="text"] { 
+	width: 90%; 
+	height: 10px;
+	margin-top: -7px; 
+	margin-bottom: 2px; 
+}
+
+input[type="password"] { 
+	width: 90%; 
+	height: 10px;
+	margin-top: -7px;  
+	margin-bottom: 2px; 
+}
+
+input[type="submit"] {
+	width: 100%;
+	background-color: black;
+	color: #fff;
+}
+input[type="submit"]:hover {
+	text-decoration: underline;
+}
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.container {
+	padding-top: 45px;
+	padding-bottom: 50px;
+	max-width: 1170px;
+	margin: auto;
+}
+
+.main-menu {
+	width: 25%;
+	float: left;
+	border: 1px solid #c8c8c8;
+}
+
+.main-menu li {
+	border-bottom: 1px solid #c8c8c8;
+}
+
+.main-menu li:hover {
+	background-color: rgba(76,75,75,0.1);	
+}
+
+.main-menu li a {
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 23px;
+	color: #4C4B4B;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.content {
+	max-width: 73%;
+	float: right;
+}
+
+h3 {
+	font-weight: bolder;
+}
+
+p {
+	text-align: justify;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-right: 10px;
+}
+
+img {
+	display: block;
+	max-width: 70%;
+	margin: auto;
+}
+footer {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+	position: fixed;	 
+	height: 40px;
+	bottom:  0px;
+	width: 100%;	 
+	color: white;
+    background-color: #757575;
+    /* IE9, iOS 3.2+ */
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj48c3RvcCBzdG9wLWNvbG9yPSIjODA4MDgwIiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMCIvPjxzdG9wIHN0b3AtY29sb3I9IiM1YjViNWIiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwLjY1NTk5OTk5OTk5OTk5OTkiLz48c3RvcCBzdG9wLWNvbG9yPSIjYTlhOWE5IiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMSIvPjwvbGluZWFyR3JhZGllbnQ+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCN2c2dnKSIgLz48L3N2Zz4=);
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%,color-stop(0, rgb(128, 128, 128)),color-stop(0.656, rgb(91, 91, 91)),color-stop(1, rgb(169, 169, 169)));
+    /* Android 2.3 */
+    background-image: -webkit-repeating-linear-gradient(top,rgb(128, 128, 128) 0%,rgb(91, 91, 91) 65.6%,rgb(169, 169, 169) 100%);
+    /* IE10+ */
+    background-image: repeating-linear-gradient(to bottom,rgb(128, 128, 128) 0%,rgb(91, 91, 91) 65.6%,rgb(169, 169, 169) 100%);
+    background-image: -ms-repeating-linear-gradient(top,rgb(128, 128, 128) 0%,rgb(91, 91, 91) 65.6%,rgb(169, 169, 169) 100%);
+}
+footer > .copyright {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #00d089;
+	color:  #FCFCFC;
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	height: 40px;
+}
+
+footer .contacts_footer {
+display: block;
+}
